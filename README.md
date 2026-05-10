@@ -20,7 +20,7 @@ cargo install cargo-ndk
 ```
 
 ### 3. Build the project
-
+ 
 ```shell
 just package-release # output is `out/zygisk-debug.zip`
 just flash-release # flash the zip to your device (only for KernelSU)
